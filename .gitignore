@@ -1,0 +1,20 @@
+# Python
+backend/venv/
+backend/pycache/
+backend/.env
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+
+# 환경변수
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
