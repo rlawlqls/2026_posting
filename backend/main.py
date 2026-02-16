@@ -17,7 +17,7 @@ app = FastAPI(title="News Sentiment Analyzer")
 # CORS 설정 (Vue에서 접근 가능하도록)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","http://localhost:8000","http://localhost:3000","https://2026-posting.vercel.app/","https://*.vercel.app"],
+    allow_origins=["http://localhost:5173","http://localhost:8000","http://localhost:3000","https://2026-posting.vercel.app","https://*.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
